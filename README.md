@@ -1,0 +1,1 @@
+This repository contains the solution to the web development assignments provided during my internship at HashedBit Innovations. It's a collection of various JavaScript and React.js tasks designed to strengthen fundamental front-end development skills.
