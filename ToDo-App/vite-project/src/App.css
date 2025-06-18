@@ -1,0 +1,114 @@
+#root {
+  max-width: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.todo-container {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: full-width;
+  width: 90%;
+  text-align: center;
+}
+
+.todo-container h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 2em;
+}
+
+.task-input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.task-input-section input {
+  flex-grow: 1;
+  padding: 0.8rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.task-input-section button {
+  padding: 0.8rem 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.task-input-section button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-bottom: 1rem;
+  font-size: 0.9em;
+}
+
+.tasks-list {
+  text-align: left;
+}
+
+.no-tasks {
+  color: #666;
+  font-style: italic;
+  text-align: center;
+  padding: 1rem;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.task-item:hover {
+  background-color: #f0f0f0;
+}
+
+.task-item span {
+  flex-grow: 1;
+  color: #333;
+  font-size: 1.1rem;
+  word-break: break-word; /* Prevents long words from overflowing */
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+  font-size: 1.1em;
+  display: flex; /* To center the icon */
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #da190b;
+}

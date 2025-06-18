@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+  padding: 20px 30px;
+  border: 2px solid forestgreen;
+  border-radius: 3%;
+}
+td {
+  border-bottom: 1px solid black;
+  padding: 10px 20px 5px 20px;
+}
+th {
+  color: blue;
+  padding-left: 4px;
+}
+/* .App {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 2px solid forestgreen;
+    width: 800px;
+    height: 200px;
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+td {
+    text-align: center;
+} */
